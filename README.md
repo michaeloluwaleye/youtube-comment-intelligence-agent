@@ -86,6 +86,16 @@ The router then determines the appropriate path:
 
 ---
 
+## Live Implementation
+
+The architecture was implemented as a working automation scenario in Make, integrating YouTube, Make AI Agent, Perplexity AI, structured JSON validation, response-length validation, conditional routing, automated replies, and Slack-based human review.
+
+![YouTube Comment Intelligence Agent – Make Implementation](implementation/make-scenario-v1.1.png)
+
+The implementation demonstrates the complete orchestration layer, including external AI research and agent knowledge, with separate execution paths for validated automated responses and human-reviewed interactions.
+
+---
+
 ## Technology Stack
 
 | Technology | Purpose |
