@@ -150,6 +150,33 @@ The system was tested across multiple scenarios.
 | Structured Output | Parse AI response successfully | ✅ Passed |
 | Character Validation | Validate response length before publishing | ✅ Passed |
 
+### Test Evidence
+
+#### Positive Comment — Automated Public Reply
+
+The agent classified the positive interaction and successfully generated and published an appropriate automated response.
+
+![Positive Comment Automated Reply](evidence/positive-test-public-reply.png)
+
+#### Factual Question — Research & Source Retrieval
+
+The agent identified the comment as a factual question and used Perplexity AI to retrieve supporting information from a specific source.
+
+![Perplexity Research Evidence](evidence/question-research-perplexity.png)
+
+The validated educational response was then published beneath the viewer's original YouTube comment with the supporting source link.
+
+![YouTube Question Response](evidence/question-test-youtube-reply.png)
+
+#### Negative Comment — Human Review Safeguard
+
+The agent identified the higher-risk interaction and routed it to Slack for human review instead of automatically responding publicly.
+
+![Slack Human Review](evidence/negative-test-human-review.png)
+
+The negative test also confirmed that no automatic public reply was published.
+
+![No Automatic Public Reply](evidence/negative-test-no-public-reply.png)
 ---
 
 ## Example Research Test
