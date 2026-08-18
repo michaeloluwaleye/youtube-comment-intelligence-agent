@@ -70,6 +70,8 @@ This introduces a human-in-the-loop safeguard for higher-risk interactions.
 
 ## Workflow Architecture
 
+![YouTube Comment Intelligence Agent Workflow Architecture](architecture/workflow-diagram-v1.1.jpg)
+
 The high-level workflow is:
 
 **YouTube Comment → AI Classification → Structured Output → JSON Validation → Character Validation → Intelligent Router**
